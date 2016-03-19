@@ -1,5 +1,5 @@
 {
-    "name": "duffleman/dln-php",
+    "name": "duffleman/dln",
     "description": "Generates and validates driving license numbers (DLNs)",
     "type": "library",
     "license": "MIT",
