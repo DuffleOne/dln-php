@@ -72,7 +72,7 @@ Throws if the user details are invalid.
 The user details information, when provided, must be exactly as specified below:
 
 ```php
-$user1 = [
+[
 	'familyName' => 'von Neumann', // required, string - can contain spaces
 	'personalName' => 'John', // optional, string - first names, including middle names
 	'birthDate' => '1969-05-10', // required, string - YYYY-MM-DD date
