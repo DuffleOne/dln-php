@@ -73,10 +73,10 @@ The user details information, when provided, must be exactly as specified below:
 
 ```php
 $user1 = [
-    'familyName'   => 'Morgan',
-    'personalName' => 'Sarah Meredyth',
-    'birthDate'    => '1964-07-05',
-    'sex'          => 'F',
+    'familyName'   => 'Morgan', // required, string - can contain spaces
+    'personalName' => 'Sarah Meredyth', // optional, string - first names, including middle names
+    'birthDate'    => '1964-07-05', // required, string - YYYY-MM-DD date
+    'sex'          => 'F', // required, string, (M|F) - whatever the person has stated to the DVLA
 ];
 ```
 
