@@ -73,11 +73,11 @@ The user details information, when provided, must be exactly as specified below:
 
 ```php
 $user1 = [
-    'familyName'   => 'Morgan', // required, string - can contain spaces
-    'personalName' => 'Sarah Meredyth', // optional, string - first names, including middle names
-    'birthDate'    => '1964-07-05', // required, string - YYYY-MM-DD date
-    'sex'          => 'F', // required, string, (M|F) - whatever the person has stated to the DVLA
-];
+	'familyName' => 'von Neumann', // required, string - can contain spaces
+	'personalName' => 'John', // optional, string - first names, including middle names
+	'birthDate' => '1969-05-10', // required, string - YYYY-MM-DD date
+	'sex' => 'M', // required, string, (M|F) - whatever the person has stated to the DVLA
+]
 ```
 
 DLNs follow a relatively strict format, and are exactly 16 characters in length.
